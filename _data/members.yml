@@ -4,3 +4,32 @@
   interests:
     - Programming
     - Open Science
+    
+- name: Tiffany Timbers
+  affiliation: Simon Fraser University
+  github: ttimbers
+  interests:
+    - Behavioural Genetics/Genomics
+    - Open Science
+
+- name: Bruno Grande
+  affiliation: Simon Fraser University
+  github: brunogrande
+  interests:
+    - Cancer Genomics
+    - Open Science
+    
+- name: Thea Van Rossum
+  affiliation: Simon Fraser University
+  github: theavanrossum
+  interests:
+    - Metagenomics
+    - Open Science
+
+- name: Catrine Loucks
+  affiliation: Simon Fraser University
+  github: cloucks
+  interests:
+    - Genetics
+    - Data Science
+    
