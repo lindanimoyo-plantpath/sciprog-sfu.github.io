@@ -27,3 +27,11 @@ a.eventTitle {
 .eventSub {
     font-size: 1.2em;
 }
+
+.team-member img.img-responsive {
+ max-width: 110px;
+}
+
+.team-member i.fa {
+ font-size: 110px;
+}
