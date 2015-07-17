@@ -25,8 +25,9 @@
                   {% assign isEvent = 1 %}
                   {% assign eventcount = eventcount | plus: 1 %}
                   <li>
-                    <a class='eventTitle' href="{{ post.link }}">{{ post.title }}, {{ post.location }}, {{ post.date | date: "%-d %B %Y"}}</a>
-                    <div class='eventSub'>{{ post.text }}</div>
+                    <a class='eventTitle' href="{{ post.link }}">{{ post.title }}</a>
+                    <div class='eventSub'>{{ post.date | date: "%B %-d, %Y"}} — {{ post.location }}</div>
+                    <div class='eventText'>{{ post.text }}</div>
                   </li>
                 {% endif %}
               {% endfor %}
