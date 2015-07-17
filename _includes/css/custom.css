@@ -1,8 +1,12 @@
 /* Improve general readability */
 
 section h3.section-subheading {
-    line-height: 1.75;
-    margin-bottom: 50px;
+    line-height: 2;
+    max-width: 50em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    font-style: normal;
 }
 
 .intro-lead-in {
@@ -42,6 +46,7 @@ a.eventTitle {
 
 .eventSub {
 	margin-bottom: 0.3em;
+	margin-left: 0em; 
 }
 
 .eventText {
@@ -52,7 +57,24 @@ a.eventTitle {
 
 /* Improve layout */
 
-.footerLink {
-	display: inline-block;
-	margin-top: 1em;
+div.row {
+	padding-bottom: 1em;
+}
+
+@media (min-width: 768px) {
+
+  section {
+    padding: 100px 0;
+  }
+  
+}
+
+/* Improve colouring */
+
+.navbar-default .navbar-brand {
+	color: #FFFFFF;
+}
+
+.navbar-default.navbar-shrink .navbar-brand {
+	color: #{{ site.color.primary }};
 }
