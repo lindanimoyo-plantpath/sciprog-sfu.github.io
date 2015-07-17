@@ -76,5 +76,5 @@ div.row {
 }
 
 .navbar-default.navbar-shrink .navbar-brand {
-	color: #{{ site.color.primary }};
+	/*color: #{{ site.color.primary }};*/
 }
