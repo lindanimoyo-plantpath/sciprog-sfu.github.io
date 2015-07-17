@@ -33,5 +33,26 @@ a.eventTitle {
 }
 
 .team-member i.fa {
- font-size: 110px;
+	font-size: 110px;
+}
+
+.eventTitle {
+	font-weight: bold;
+}
+
+.eventSub {
+	margin-bottom: 0.3em;
+}
+
+.eventText {
+	margin-left: 2em;
+	margin-bottom: 1em;
+	font-size: 1.2em;
+}
+
+/* Improve layout */
+
+.footerLink {
+	display: inline-block;
+	margin-top: 1em;
 }
