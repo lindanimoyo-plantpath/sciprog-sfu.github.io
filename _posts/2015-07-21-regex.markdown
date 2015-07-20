@@ -4,4 +4,6 @@ text: We often manipulate text and a bit of pattern matching can go a long way. 
 location: Simon Fraser University, Burnaby Campus, SSB 7172
 link: https://github.com/ttimbers/studyGroup/issues/4
 date: 2015-07-21
+time: 3:30 pm
+
 ---
