@@ -6,7 +6,7 @@
 
 ## Setup
 
-For today's lesson, our "data" will be the following text. To introduce the basics of regular expressions (regex), we will be using the website http://regexpal.com/. This will allow us to focus on the regex syntax. If we have time, we can start using other tools, such as grep, sed and python. 
+For today's lesson, our "data" will be the following text. To introduce the basics of regular expressions (regex), we will be using the website http://regexpal.com/. This will allow us to focus on the regex syntax. If we have time, we can start using other tools, such as grep, sed and python. For now though, copy the text below into the bottom text box on regexpal. 
 
 Additionally, you can use any number of regex cheat sheets available online. Here's [one example](http://www.cheatography.com/davechild/cheat-sheets/regular-expressions/). 
 
@@ -34,8 +34,10 @@ A common technique in molecular biology is to digest or cut DNA with restriction
 | *Boom*HI           | `CTGCNNNN`           |
 
 **Notes** 
-W = A or T 
-N = A, T, G or C
+
+* W = A or T 
+
+* N = A, T, G or C
 
 To search for *Eco*RI cutting sites, you can simply search using the recognition sequencing as the pattern. 
 
@@ -196,9 +198,17 @@ However, we have the same subpattern (`[ATGC]`) being repeated multiple times. I
 CTGC[ATGC]{4}
 ```
 
+#### Challenge Question 2
+
+There are many approaches to solving this challenge. Here's my attempt:
+
+```text
+1? ?\(?\d{3}\)?[- ]?\d{3}[- ]?\d{4}
+```
+
 #### Challenge Question 3
 
-There are multiple ways of solving this challenge. Here's one example solution. 
+Again, there are multiple ways of solving this challenge. Here's one example solution. 
 
 ```text
 -?(\d+,?)+(\.\d+)?(e\d+)?
