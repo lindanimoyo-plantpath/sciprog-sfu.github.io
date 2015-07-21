@@ -34,7 +34,7 @@ Once equipped with the knowledge of regular expressions, you'll wonder how you e
 
 	=== Part 3 ===
 
-	# Invalid emails
+	# Valid emails
 	brunogrande@sfu.ca
 	BrunoGrande@sfu.ca
 	Bruno_Grande@sfu.ca
@@ -44,9 +44,10 @@ Once equipped with the knowledge of regular expressions, you'll wonder how you e
 	Bruno_Grande-1991@engage-sfu.ca
 	Bruno_Grande.1991@sfu.co.uk
 
-	# Valid emails
+	# Invalid emails
 	bruno grande@sfu.ca
 	brunogrande@sfuca
+	brunogrande@-sfu.ca
 	brunograndesfu.ca
 	bruno_o'grande@sfu.ca
 	```
