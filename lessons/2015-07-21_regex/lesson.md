@@ -17,46 +17,26 @@ Once equipped with the knowledge of regular expressions, you'll wonder how you e
 ## Setup
 
 1. Open [regexpal.com](http://regexpal.com/). 
-2. Enable the following two options at the top of the page. 
+2. Enable the following options at the top of the page. 
     * ^$ match at line breaks
-    * Dot matches all
-3. Copy the following text in the bottom text box. 
-
-	```
-	=== Parts 1 and 2 ===
-
-	TACTAGATGACTGCAGAATTCCCGACGTTAAGTACATTACCCCGTCCAGG
-	GCGCCGTTCAGGATCACGTTACCGCCATAAGATGGGAGGGATCCTTCTTC
-	TCCGCTGCGCCCACGCCAGTAGTGATTATATATACTCCTATAACCCTTCT
-	CCGGAGGCGGAAATCCGCCACGAATGAATTCGAGAATGTATTTCCCCGAC
-	AATCATTATATAGGGGCGCTCCTAAGCTTTTCCACTCGGTTGAGCCTGGT
-
-
-	=== Part 3 ===
-
-	# Valid emails
-	brunogrande@sfu.ca
-	BrunoGrande@sfu.ca
-	Bruno_Grande@sfu.ca
-	Bruno_Grande1991@sfu.ca
-	Bruno_Grande.1991@sfu.ca
-	Bruno_Grande-1991@sfu.ca
-	Bruno_Grande-1991@engage-sfu.ca
-	Bruno_Grande.1991@sfu.co.uk
-
-	# Invalid emails
-	bruno grande@sfu.ca
-	brunogrande@sfuca
-	brunogrande@-sfu.ca
-	brunograndesfu.ca
-	bruno_o'grande@sfu.ca
-	```
-
+3. Copy the appropriate text in the bottom text box on regexpal.com. See each part below for the example text. 
 4. Enjoy the lesson!
 
 ## Lesson
 
 ### Part 1: Basic Patterns
+
+For Parts 1 and 2, we will use the following text. Please copy-paste it into the bottom textbox on regexpal.com. 
+
+```text
+=== Parts 1 and 2 ===
+
+TACTAGATGACTGCAGAATTCCCGACGTTAAGTACATTACCCCGTCCAGG
+GCGCCGTTCAGGATCACGTTACCGCCATAAGATGGGAGGGATCCTTCTTC
+TCCGCTGCGCCCACGCCAGTAGTGATTATATATACTCCTATAACCCTTCT
+CCGGAGGCGGAAATCCGCCACGAATGAATTCGAGAATGTATTTCCCCGAC
+AATCATTATATAGGGGCGCTCCTAAGCTTTTCCACTCGGTTGAGCCTGGT
+```
 
 A common technique in molecular biology is to digest or cut DNA with restriction enzymes. You can think of restriction enzymes as DNA scissors that only cut at specific places, depending on their recognition site. There are a great number of commercially available restriction enzymes, each with its own recognition site. I have included a few real and theoretical ones below. 
 
@@ -127,6 +107,8 @@ Refer back to the table of restriction enzymes above. Create a pattern to match 
 
 ### Part 2: Quantifiers
 
+For Part 2, we will use the same text as in Part 1 (see above). 
+
 A common feature of DNA sequences are repeats, in which a stretch of sequence is repeated a variable number of times. The repeated sequence is usually relatively well defined, but the number of repeats can vary. 
 
 The simplest kind of repeat is a stretch of the same nucleotide. For instance, to search for stretches of one or more T's, you may use the plus quantifier, `+`. This quantifier means that the preceding subpattern can be present one or more times. Similar quantifier are the asterisk, `*`, which signifies zero or more times, and the question mark, `?`, which signifies zero or one time.
@@ -184,7 +166,28 @@ Match all of the phone number formats listed below.
 
 ### Part 3: Character Classes
 
-For Part 3, we will use the list of email addresses above (see beginning of document). The first section are invalid emails, and the second section are valid emails. We will build our repertoire of regex knowledge in order to be able to only match valid emails (and exclude any invalid ones). 
+For Part 3, we will use the list of email addresses below. The first section are invalid emails, and the second section are valid emails. We will build our repertoire of regex knowledge in order to be able to only match valid emails (and exclude any invalid ones). 
+
+```text
+=== Parts 3 and 4 ===
+
+# Valid emails
+brunogrande@sfu.ca
+BrunoGrande@sfu.ca
+Bruno_Grande@sfu.ca
+Bruno_Grande1991@sfu.ca
+Bruno_Grande.1991@sfu.ca
+Bruno_Grande-1991@sfu.ca
+Bruno_Grande-1991@engage-sfu.ca
+Bruno_Grande.1991@sfu.co.uk
+
+# Invalid emails
+bruno grande@sfu.ca
+brunogrande@sfuca
+brunogrande@-sfu.ca
+brunograndesfu.ca
+bruno_o'grande@sfu.ca
+```
 
 Let's start by focusing on matching the first part of valid emails. For future reference:
 
@@ -254,7 +257,9 @@ With this, we can shorten our pattern to the following. Notice that we no longer
 ^\w+
 ```
 
-If we look at the email being matched, we continue to make progress. However, the period remains unmatched. In order to match either `\w` or `.`, we need to bring back the square braquets. 
+If we look at the email being matched, we continue to make progress. However, the period remains unmatched. However, you will notice that adding a period (`^\w.+`) causes every email to be fully matched. This is because the `+` quantifier applies to the subpattern immediately before, which is the period in this case. This causes the first character to me matched with `\w` and the rest of the emails matched with `.+`. 
+
+ThisIn order to match either `\w` or `.`, we need to bring back the square braquets. 
 
 ```text
 ^[\w.]+
@@ -325,6 +330,78 @@ Create a regex pattern that matches all of the number formats listed below.
 *Answers to challenge questions are located at the bottom of this lesson.*
 
 ----
+
+### Part 4: Capturing
+
+All of the above is useful to search for patterns within a body of text. However, as I alluded to in the Motivation section, regex is also useful for text manipulation in addition to simple searching. 
+
+For this Part, we will stick with the same example text as Part 3, but we will store it into a text file. You can create this yourself or download it by right-clicking [this link](https://github.com/ttimbers/studyGroup/raw/gh-pages/lessons/2015-07-21_regex/part_4.txt) and selecting "Save Link As..." (or equivalent, such as "Download Linked File As..."). 
+
+Open a Bash shell and navigate to the directory where the text file is located, referred to here as part_4.txt. 
+
+```bash
+cd /path/to/part_4.txt
+```
+
+If you print the contents of the file, you should see the following (where `$` is your prompt). 
+
+```bash
+$ cat part_4.txt
+=== Parts 3 and 4 ===
+
+# Valid emails
+brunogrande@sfu.ca
+BrunoGrande@sfu.ca
+Bruno_Grande@sfu.ca
+Bruno_Grande1991@sfu.ca
+Bruno_Grande.1991@sfu.ca
+Bruno_Grande-1991@sfu.ca
+Bruno_Grande-1991@engage-sfu.ca
+Bruno_Grande.1991@sfu.co.uk
+
+# Invalid emails
+bruno grande@sfu.ca
+brunogrande@sfuca
+brunogrande@-sfu.ca
+brunograndesfu.ca
+bruno_o'grande@sfu.ca
+```
+
+Let's extract the second part (URL portion) of valid emails. 
+
+To do this, we can start with the regex pattern developed for Challenge Question 3. We will restrict the contents of the text file to lines that match that pattern using `grep` and pipes (`|`). 
+
+```bash
+$ cat part_4.txt | grep -P "^[\w.-]+@[A-Za-z0-9][A-Za-z0-9-]+(\.[A-Za-z]+)+$"
+brunogrande@sfu.ca
+BrunoGrande@sfu.ca
+Bruno_Grande@sfu.ca
+Bruno_Grande1991@sfu.ca
+Bruno_Grande.1991@sfu.ca
+Bruno_Grande-1991@sfu.ca
+Bruno_Grande-1991@engage-sfu.ca
+Bruno_Grande.1991@sfu.co.uk
+```
+
+**Warning:** I'm using the `-P` option here so that the regular expression is interpreted as a Perl regular expression. Unfortunately, there are slight variations in how regex is implemented from one tool to the next. The `-P` option prevents us from having to tweak our regex. 
+
+Now that we have valid emails, let's extract the URL after the `@` symbol. We can achieve this using a capture group, denoted with parentheses (`()`). You can recall that we have used parentheses earlier today and those too are capture groups. 
+
+To extract the second part of the emails, we wrap the subpattern corresponding to the URL, which is basically everything after the `@`. The regex becomes: `^[\w.-]+@([A-Za-z0-9][A-Za-z0-9-]+(\.[A-Za-z]+)+)$`. Notice that we don't include the trailing `$`, as we don't want to capture the line ending. 
+
+To do the actual extraction, we can use `sed` or `perl`. We'll use Perl for the simplicity of not having to tweak our regex. 
+
+```bash
+$ cat part_4.txt | grep -P "^[\w.-]+@[A-Za-z0-9][A-Za-z0-9-]+(\.[A-Za-z]+)+$" | perl -pe 's/^[\w.-]+@([A-Za-z0-9][A-Za-z0-9-]+(\.[A-Za-z]+)+)$/\1/'
+sfu.ca
+sfu.ca
+sfu.ca
+sfu.ca
+sfu.ca
+sfu.ca
+engage-sfu.ca
+sfu.co.uk
+```
 
 ## Answers to Challenge Questions
 
