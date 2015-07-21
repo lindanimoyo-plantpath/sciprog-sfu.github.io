@@ -71,6 +71,7 @@ When you're ready to list a new event for your Study Group, follow these steps, 
     location: Hacky Hour Stadium
     link: https://github.com/yourUserName/studyGroup/issues/1234
     date: 2016-01-04
+    time: 3:30 pm
 
     ---
     ```

@@ -4,5 +4,6 @@ text: Learn to use the Unix Shell to quickly find files and folders, concatenate
 location:  Simon Fraser University (Burnaby Campus) SSB 7172
 link: https://github.com/ttimbers/studyGroup/issues/5
 date: 2015-07-28
+time: 3:30 pm
 
 ---
