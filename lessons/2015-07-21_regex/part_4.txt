@@ -1,0 +1,18 @@
+=== Parts 3 and 4 ===
+
+# Valid emails
+brunogrande@sfu.ca
+BrunoGrande@sfu.ca
+Bruno_Grande@sfu.ca
+Bruno_Grande1991@sfu.ca
+Bruno_Grande.1991@sfu.ca
+Bruno_Grande-1991@sfu.ca
+Bruno_Grande-1991@engage-sfu.ca
+Bruno_Grande.1991@sfu.co.uk
+
+# Invalid emails
+bruno grande@sfu.ca
+brunogrande@sfuca
+brunogrande@-sfu.ca
+brunograndesfu.ca
+bruno_o'grande@sfu.ca
