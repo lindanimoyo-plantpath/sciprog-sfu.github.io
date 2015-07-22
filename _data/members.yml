@@ -32,4 +32,31 @@
   interests:
     - Genetics
     - Data Science
-    
+
+- name: Dan Fornika
+  affiliation: Morin Lab, Simon Fraser University
+  github: dfornika
+  interests:
+    - Experimental Design & Planning
+    - Reproducible Research
+
+- name: Alireza Hojjati
+  affiliation: UBC/SFU
+  github: aliojjati
+  interests:
+    - Programming
+    - Open Science
+
+- name: Remi Daigle
+  affiliation: University of Toronto
+  github: remi-daigle
+  interests:
+    - Marine ecology
+    - Spatial planning/GIS
+
+- name: Ross Churchley
+  affiliation: Simon Fraser University
+  github: rchurchley
+  interests:
+    - Graph Theory
+    - Data Science
