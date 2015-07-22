@@ -333,6 +333,8 @@ Create a regex pattern that matches all of the number formats listed below.
 
 ### Part 4: Capturing
 
+**Warning:** This section is still being developed. 
+
 All of the above is useful to search for patterns within a body of text. However, as I alluded to in the Motivation section, regex is also useful for text manipulation in addition to simple searching. 
 
 For this Part, we will stick with the same example text as Part 3, but we will store it into a text file. You can create this yourself or download it by right-clicking [this link](https://github.com/ttimbers/studyGroup/raw/gh-pages/lessons/2015-07-21_regex/part_4.txt) and selecting "Save Link As..." (or equivalent, such as "Download Linked File As..."). 
