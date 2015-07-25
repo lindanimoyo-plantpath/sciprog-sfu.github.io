@@ -17,11 +17,11 @@
                 {% endif %}
                 {% capture nowyear %}{{'now' | date: '%Y'}}{% endcapture %}
                 {% capture postyear %}{{post.date | date: '%Y'}}{% endcapture %}
+                {% capture nowmonth %}{{'now' | date: '%m'}}{% endcapture %}
+                {% capture postmonth %}{{post.date | date: '%m'}}{% endcapture %}
                 {% capture nowday %}{{'now' | date: '%j'}}{% endcapture %}
                 {% capture postday %}{{post.date | date: '%j'}}{% endcapture %}
-                {% assign postday = postday | plus: 0 %}
-                {% assign nowday = nowday | minus: 2 %}
-                {% if postyear > nowyear or postday >= nowday and postyear >= nowyear %}
+                {% if postyear >= nowyear and postmonth >= nowmonth and postday >= nowday %}
                   {% assign isEvent = 1 %}
                   {% assign eventcount = eventcount | plus: 1 %}
                   <li>
