@@ -1,3 +1,5 @@
 ### Jekyll ###
 _site/
 .sass-cache/
+.DS_Store
+lessons/.DS_Store
