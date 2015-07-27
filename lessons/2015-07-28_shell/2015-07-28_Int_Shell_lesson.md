@@ -243,10 +243,6 @@ awk '{print $1, $2, $3}' MMP_minheader.txt > MMP_chrNvarsNpos.txt
 head -10 MMP_chrNvarsNpos.txt
 ~~~
 
-> ## Challenge 
->
-> Create a file that contains 
-
 We can specify a range of columns, but it starts to look a bit complicated:
 
 ~~~
