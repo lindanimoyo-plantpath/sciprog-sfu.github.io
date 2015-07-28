@@ -37,7 +37,6 @@ we're searching in. The output is the three lines in the file that contain the l
 "not".
 
 Let's try a different pattern: "day".
-
 ~~~
 $ grep day haiku.txt
 ~~~
@@ -69,6 +68,7 @@ Another useful option is `-n`, which numbers the lines that match:
 $ grep -n "it" haiku.txt
 ~~~
 
+
 Here, we can see that lines 5, 9, and 10 contain the letters "it".
 
 We can combine options (i.e. flags) as we do with other Unix commands.
@@ -79,6 +79,7 @@ the option `-w` to find the lines that contain the word "the" and `-n` to number
 $ grep -n -w "the" haiku.txt
 ~~~
 
+
 Now we want to use the option `-i` to make our search case-insensitive:
 
 ~~~
@@ -88,7 +89,7 @@ $ grep -n -w -i "the" haiku.txt
 Now, we want to use the option `-v` to invert our search, i.e., we want to output
 the lines that do not contain the word "the".
 
-~~~ 
+~~~
 $ grep -n -w -v "the" haiku.txt
 ~~~
 
