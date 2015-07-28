@@ -30,11 +30,6 @@ Let’s find lines that contain the word “not”:
 ~~~
 $ grep not haiku.txt
 ~~~
-~~~
-Is not the true Tao, until
-"My Thesis" not found
-Today it is not working
-~~~
 
 Here, not is the pattern we're searching for. It's pretty simple: every alphanumeric 
 character matches against itself. After the pattern comes the name or names of the files 
@@ -43,12 +38,8 @@ we're searching in. The output is the three lines in the file that contain the l
 
 Let's try a different pattern: "day".
 
-~~~ {.bash}
-$ grep day haiku.txt
 ~~~
-~~~ {.output}
-Yesterday it worked
-Today it is not working
+$ grep day haiku.txt
 ~~~
 
 This time,
@@ -58,7 +49,7 @@ To restrict matches to lines containing the word "day" on its own,
 we can give `grep` with the `-w` flag.
 This will limit matches to word boundaries.
 
-~~~ {.bash}
+~~~
 $ grep -w day haiku.txt
 ~~~
 
@@ -66,24 +57,16 @@ In this case, there aren't any, so `grep`'s output is empty. Sometimes we don't
 want to search for a single word, but a phrase. This is also easy to do with
 `grep` by putting the phrase in quotes.
 
-~~~ {.bash}
-$ grep -w "is not" haiku.txt
 ~~~
-~~~ {.output}
-Today it is not working
+$ grep -w "is not" haiku.txt
 ~~~
 
 We've now seen that you don't have to have quotes around single words, but it is useful to use quotes when searching for multiple words. It also helps to make it easier to distinguish between the search term or phrase and the file being searched. We will use quotes in the remaining examples.
 
 Another useful option is `-n`, which numbers the lines that match:
 
-~~~ {.bash}
-$ grep -n "it" haiku.txt
 ~~~
-~~~ {.output}
-5:With searching comes loss
-9:Yesterday it worked
-10:Today it is not working
+$ grep -n "it" haiku.txt
 ~~~
 
 Here, we can see that lines 5, 9, and 10 contain the letters "it".
@@ -92,41 +75,21 @@ We can combine options (i.e. flags) as we do with other Unix commands.
 For example, let's find the lines that contain the word "the". We can combine
 the option `-w` to find the lines that contain the word "the" and `-n` to number the lines that match:
 
-~~~ {.bash}
-$ grep -n -w "the" haiku.txt
 ~~~
-~~~ {.output}
-2:Is not the true Tao, until
-6:and the presence of absence:
+$ grep -n -w "the" haiku.txt
 ~~~
 
 Now we want to use the option `-i` to make our search case-insensitive:
 
-~~~ {.bash}
-$ grep -n -w -i "the" haiku.txt
 ~~~
-~~~ {.output}
-1:The Tao that is seen
-2:Is not the true Tao, until
-6:and the presence of absence:
+$ grep -n -w -i "the" haiku.txt
 ~~~
 
 Now, we want to use the option `-v` to invert our search, i.e., we want to output
 the lines that do not contain the word "the".
 
-~~~ {.bash}
+~~~ 
 $ grep -n -w -v "the" haiku.txt
-~~~
-~~~ {.output}
-1:The Tao that is seen
-3:You bring fresh toner.
-4:
-5:With searching comes loss
-7:"My Thesis" not found.
-8:
-9:Yesterday it worked
-10:Today it is not working
-11:Software is like that.
 ~~~
 
 `grep` has lots of other options.
@@ -157,9 +120,9 @@ Quit the `man` pages by typing "q".
 > 
 > `and the presence of absence`
 >
-> a. `grep of haiku.txt`
-> b. `grep -E of haiku.txt`
-> c. `grep -w of haiku.txt`
+> 1. `grep of haiku.txt`
+> 2. `grep -E of haiku.txt`
+> 3. `grep -w of haiku.txt`
 
 
 ## Wildcards 
