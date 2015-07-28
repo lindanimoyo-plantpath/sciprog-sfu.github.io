@@ -1,4 +1,6 @@
 # Cool and Fast Data Wrangling in the Unix Shell by Tiffany Timbers
+Much of this material has been taken and remixed from Software-Carpentry's Unix Shell 
+lesson (http://software-carpentry.org/lessons.html).
 
 ## Use `grep` to select lines from text files that match simple patterns
 
@@ -139,27 +141,48 @@ or try the "b" and spacebar keys to skip up and down by full page.
 Quit the `man` pages by typing "q".
 
 
-> ## Wildcards 
+> ## Challenge 
 >
-> `grep`'s real power doesn't come from its options, though; it comes from
-> the fact that patterns can include wildcards. (The technical name for
-> these is **regular expressions**, which
-> is what the "re" in "grep" stands for.) Regular expressions are both complex
-> and powerful; if you want to do complex searches, please look at the lesson
-> on [our website](http://software-carpentry.org/v4/regexp/index.html). As a taster, we can
-> find lines that have an 'o' in the second position like this:
+> The Tao that is seen
+> Is not the true Tao, until
+> You bring fresh toner.
+> With searching comes loss
+> and the presence of absence:
+> "My Thesis" not found.
+> Yesterday it worked
+> Today it is not working
+> Software is like that.
 >
->     $ grep -E '^.o' haiku.txt
->     You bring fresh toner.
->     Today it is not working
->     Software is like that.
+> From the above text, contained in the file haiku.txt, which command would result in the following output:
+> 
+> `and the presence of absence`
 >
-> We use the `-E` flag and put the pattern in quotes to prevent the shell
-> from trying to interpret it. (If the pattern contained a '\*', for
-> example, the shell would try to expand it before running `grep`.) The
-> '\^' in the pattern anchors the match to the start of the line. The '.'
-> matches a single character (just like '?' in the shell), while the 'o'
-> matches an actual 'o'.
+> a. `grep of haiku.txt`
+> b. `grep -E of haiku.txt`
+> c. `grep -w of haiku.txt`
+
+
+## Wildcards 
+
+ `grep`'s real power doesn't come from its options, though; it comes from
+ the fact that patterns can include wildcards. (The technical name for
+ these is **regular expressions**, which
+ is what the "re" in "grep" stands for.) Regular expressions are both complex
+ and powerful; if you want to do complex searches, please look at the lesson
+ on [our website](http://software-carpentry.org/v4/regexp/index.html). As a taster, we can
+ find lines that have an 'o' in the second position like this:
+
+     $ grep -E '^.o' haiku.txt
+     You bring fresh toner.
+     Today it is not working
+     Software is like that.
+
+ We use the `-E` flag and put the pattern in quotes to prevent the shell
+ from trying to interpret it. (If the pattern contained a '\*', for
+ example, the shell would try to expand it before running `grep`.) The
+ '\^' in the pattern anchors the match to the start of the line. The '.'
+ matches a single character (just like '?' in the shell), while the 'o'
+ matches an actual 'o'.
 
 ### Using `grep` to select lines from a variant call file
 
@@ -183,8 +206,8 @@ One thing we might want to do is extract all the rows that contain mutations on 
 We can use grep to do this:
 
 ~~~
-grep -E '^III' MMP.vcf > ChrIII.vcf
-head -5 ChrIII.vcf
+$ grep -E '^III' MMP.vcf > ChrIII.vcf
+$ head -5 ChrIII.vcf
 ~~~
 
 Now you might notice that the header is no longer there. This is because it didn't start
@@ -192,9 +215,9 @@ with `III`. To add the header to our output file we first need to extract the he
 then extract the Chr III variants and append them to the same file:
 
 ~~~
-grep -E '^#' MMP.vcf > ChrIII.vcf
-grep -E '^III' MMP.vcf >> ChrIII.vcf
-head -5 ChrIII.vcf
+$ grep -E '^#' MMP.vcf > ChrIII.vcf
+$ grep -E '^III' MMP.vcf >> ChrIII.vcf
+$ head -5 ChrIII.vcf
 ~~~
 
 > ## Challenge 
@@ -217,42 +240,150 @@ of the variants, we can easily combine awk and grep to do this. First, we will u
 make a version of the `.vcf` file with a less complex header:
 
 ~~~
-grep -E -v '^##' MMP.vcf > MMP_minheader.txt
+$ grep -E -v '^##' MMP.vcf > MMP_minheader.txt
 ~~~
 
 Now we have a simple, rectangular file we can use easily with `awk`. Now, to extract the 
 variant column, which is the 3rd column, we can type:
 
 ~~~
-awk '{print $3}' MMP_minheader.txt > MMPvariants.txt
-head -10 MMPvariants.txt
+$ awk '{print $3}' MMP_minheader.txt > MMPvariants.txt
+$ head -10 MMPvariants.txt
 ~~~
+
+We can also "peak" at what we are doing with large files before saving things by combining
+`awk` and `head` with a pipe, `|` (the vertical bar on your keyboard).
+
+~~~
+$ awk '{print $3}' MMP_minheader.txt | head -10
+~~~
+
+> ## Challenge 
+>
+> Extract the INFO column
+
 
 You can see that we also get the header for that column. What if you don't want that? You
 can use:
 
 ~~~
-awk '{if (NR > 1) print $3}' MMP_minheader.txt > MMPvariants.txt
-head -10 MMPvariants.txt
+$ awk '{if (NR > 1) print $3}' MMP_minheader.txt | head -10
+~~~
+
+Wait! so can we use that on the original .vcf file? Yes we can!
+
+~~~
+$ awk '{if (NR > 51) print $3}' MMP.vcf | head -10
 ~~~
 
 To select multiple columns, you can simply list them, separating them with commas:
 
 ~~~
-awk '{print $1, $2, $3}' MMP_minheader.txt > MMP_chrNvarsNpos.txt
-head -10 MMP_chrNvarsNpos.txt
+$ awk '{if (NR > 51) print $1, $2, $3}' MMP.vcf | head -10
 ~~~
 
-We can specify a range of columns, but it starts to look a bit complicated:
+We can specify a range of columns, but it starts to look a bit complicated, and it is
+"simplest" on rectangular datasets:
 
 ~~~
-awk '{for (x=1; x<=3; x++) printf("%s ", $x); printf("\n"); }' MMP_minheader.txt > MMP_chrNvarsNpos.txt
-head -10 MMP_chrNvarsNpos.txt
+awk '{for (x=1; x<=7; x++) printf("%s ", $x); printf("\n"); }' MMP_minheader.txt | head -10
 ~~~
 
 > ## Challenge 
 >
-> Create a file that has the columns #CHROM, ID, REF and the first 3 of the VC columns 
-> (e.g. VC10118, VC10129 & VC10130) 
+> Create a file that has the columns 20-29.
+
+## Finding files and folders using `find`
+
+Sometimes, files we want to work with are distributed across different folders. If for 
+example, we wanted to concatenate everything from a similar file-type to make one big file
+for analysis, how might we do this? We can use the `find` tool in the Unix Shell.
+
+
+In the `behaviour` directory inside the `data` directory associated with this lesson we 
+can see 3 date-time-stamped folders which contain many files, including those that end in
+`.dat`, `.set` and `.summary`. Each `.dat` file represents the behavioural analysis of a  
+single worm from a worm tracking experiment and each date-time-stamped folder contains
+all the worms that were on a plate together during a single tracking experiment. We want 
+to combine all the `.dat` files into one big file so that we can work with it our 
+favourite programming language (e.g. R, Python, Matlab, etc). The `find` command will let
+us do this very easily. Before we jump into this, let's learn a little more about the find 
+command.
+
+
+With `find` we can grab the file or directory names within our current directory or any 
+sub-directories. We can do this by asking what are the names of all the directories and 
+sub-directories in our current directory. To demonstrate this, let's navigate to the data 
+directory:
+
+~~~
+$ cd ..
+$ pwd
+$ find . -type d
+~~~
+
+We can specify that we only want to know about the directories in our current directory, 
+and not their subdirectories using the `-maxdepth` option.
+
+~~~
+$ find . -maxdepth 1 -type d
+~~~
+
+We can use the `f` option for type to get all the files in the directory and 
+subdirectories:
+
+~~~
+$ find . -type f
+~~~
+
+OK, this is great, but back to our current problem, how can we access only certain files
+or directories? We can use the `-name` option instead of `-type` and match names. To 
+get all the names of the files ending in `.summary` in the behaviour directory we can:
+
+~~~
+$ cd behaviour
+$ find . -name *.summary
+~~~
+
+> ## Challenge 
+>
+> Grab the file names of all the `.dat` files in the behaviour directory
+
+Now, we want to concatenate all these files - how could we do that? Could we use a pipe as
+we did previously and send the output of find to `cat`, `grep` or `awk`?
+
+~~~
+$ find . -name *.summary | cat
+~~~
+
+That doesn't seem to work... All we get are the filenames... So we need to use another 
+method for combining tools, the `$()`. For example:
+
+~~~
+$ wc -l $(find . -name '*.summary')
+~~~
+
+When the shell executes this command, the first thing it does is run whatever is inside 
+the $(). It then replaces the $() expression with that command's output. Since the output 
+of find is the three filenames ending in `.summary` the shell 
+constructs the command:
+
+~~~
+$ wc -l ./20141118_141834/n2_4DayOld_locomo600s_a.summary ./20141118_145455/n2_4DayOld_locomo600s_b.summary ./20141118_152854/n2_4DayOld_locomo600s_c.summary
+~~~
+
+> ## Challenge 1
+> Using `cat`, concatenate all the text in all the `.summary` files into one file called
+> `all_summaries.summary`
+
+> ## Challenge 2
+> How do you know if you got the right answer?
+
+> ## Challenge 3
+> Using `cat`, concatenate all the text in all the `.dat` files into one file called
+> `all_dats.dat`. This works in our case with only 3 experiments, but with more we would 
+> get the error `-bash: /bin/cat: Argument list too long`. How could we get around this
+> still using the Shell?
+
 
 
