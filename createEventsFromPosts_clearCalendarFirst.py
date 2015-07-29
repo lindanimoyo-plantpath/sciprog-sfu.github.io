@@ -1,6 +1,6 @@
 ##################################################################################################
 # date: 2015-07-28
-# author: Thea Van Rossum theavanrossum@gmail.com 
+# author: Thea Van Rossum @theavanrossum
 # functionality:
 #    1. Creates a Google Calendar API service object
 #    2. Deletes all events in the calendar in case changes have been made to existing events
