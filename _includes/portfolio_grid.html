@@ -21,7 +21,6 @@
                 {% capture postmonth %}{{post.date | date: '%m'}}{% endcapture %}
                 {% capture nowday %}{{'now' | date: '%j'}}{% endcapture %}
                 {% capture postday %}{{post.date | date: '%j'}}{% endcapture %}
-                <!-- {{nowyear}}-{{nowmonth}}-{{nowday}} -->
                 {% if postyear >= nowyear and postmonth >= nowmonth and postday >= nowday %}
                   {% assign isEvent = 1 %}
                   {% assign eventcount = eventcount | plus: 1 %}
