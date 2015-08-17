@@ -4,6 +4,7 @@ text: Come work on your own project in a supportive environment to get (and give
 location: Simon Fraser University, Burnaby Campus, SSB 7172
 link: https://github.com/ttimbers/studyGroup/issues/18
 date: 2015-10-5
-time: 11:30
+startTime: 11:30
+endTime: 12:30
 
 ---
