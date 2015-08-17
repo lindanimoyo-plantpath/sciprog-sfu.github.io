@@ -3,7 +3,7 @@ title: RStudio - beyond the editor by Thea Van Rossum
 text: Let's dig in to that menu bar! Debugger & R markdown, here we come
 location: Simon Fraser University, Burnaby Campus, SSB 7172
 link: https://github.com/ttimbers/studyGroup/issues/17
-date: 2015-09-15
-time: 3:30 pm
+date: 2015-09-14
+time: 11:30
 
 ---
