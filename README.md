@@ -93,3 +93,4 @@ Now that you're all set up, GitHub provides several ways to stay in touch with t
  
   That's it! Share the URL with your participants and you can chat live with them as they join the room.
   - **Use the Mozilla Science Forum** to chat with study groups worldwide. Find the [forum here](https://forum.mozillascience.org/category/events/study-groups); use this to share your stories, ask questions to the wider community, and find out who's out there.
+
