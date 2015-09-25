@@ -9,7 +9,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">{{site.title}}</a>
+                <a class="navbar-brand page-scroll" href="/">{{site.title}}</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -19,13 +19,13 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">What We Do</a>
-                    </li>
-                    <li>
                         <a class="page-scroll" href="#portfolio">Events</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#team">Team</a>
                     </li>
                 </ul>
             </div>
@@ -40,7 +40,11 @@
             <div class="intro-text">
                 <div class="intro-lead-in">{{ site.headlineSmall }}</div>
                 <div class="intro-heading">{{ site.headlineMain }}</div>
-                <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+                {% if site.survey_url %}
+                    <a href="{{ site.survey_url }}" target="_blank" class="btn btn-xl">Join The Community</a>
+                {% else %}
+                    <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+                {% endif %}
             </div>
         </div>
     </header>

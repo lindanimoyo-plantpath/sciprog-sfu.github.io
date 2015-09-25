@@ -9,12 +9,14 @@ section h3.section-subheading {
     font-style: normal;
 }
 
-.intro-lead-in {
+header .intro-text .intro-lead-in {
       text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+      line-height: 1.5em;
 }
 
-.intro-heading {
+header .intro-text .intro-heading {
       text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+      line-height: 1.25em;
 }
 
 /* Improve formatting of events */
@@ -61,10 +63,34 @@ div.row {
 	padding-bottom: 1em;
 }
 
+.navbar-brand {
+  height: auto;
+}
+
+.btn {
+  margin-bottom: 5px;
+}
+
+ul.events {
+  padding-left: 0px;
+}
+
 @media (min-width: 768px) {
 
   section {
     padding: 100px 0;
+  }
+  
+}
+
+@media (max-width: 768px) {
+
+  section {
+    padding: 70px 0;
+  }
+
+  .navbar-default .navbar-brand {
+    width: 80%;
   }
   
 }
