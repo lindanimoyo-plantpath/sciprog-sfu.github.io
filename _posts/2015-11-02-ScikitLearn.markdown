@@ -6,4 +6,5 @@ link: https://github.com/ttimbers/studyGroup/issues/45
 date: 2015-11-02
 startTime: 11:30
 endTime: 12:30
+
 ---
