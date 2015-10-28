@@ -1,0 +1,9 @@
+---
+title: Study Group Meetup
+text:  LMFIT: A Python tool for model fitting
+location: Simon Fraser University, Burnaby Campus, Libraries Research Commons
+link: https://github.com/ttimbers/studyGroup/issues/50
+date: 2015-11-30
+time: 11:30 am -12:30 pm
+
+---
