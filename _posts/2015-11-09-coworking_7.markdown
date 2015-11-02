@@ -1,0 +1,9 @@
+---
+title: Coworking Session
+text: Come work on your own project in a supportive environment to get (and give) help from your peers!
+location: Simon Fraser University, Burnaby Campus, SSB 7172
+link: https://github.com/ttimbers/studyGroup/issues/48
+date: 2015-11-23
+startTime: 11:30
+endTime: 12:30
+---
