@@ -1,0 +1,9 @@
+---
+title: Using Pandas for data analysis in Python
+text: Learn how to use dataframes in Python!
+location: Simon Fraser University, Burnaby Campus, Library Research Commons
+link: https://github.com/ttimbers/studyGroup/issues/54
+date: 2015-12-14
+startTime: 11:30
+endTime: 12:30
+---
