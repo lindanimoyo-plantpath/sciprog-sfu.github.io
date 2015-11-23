@@ -3,7 +3,7 @@ title: LmFit
 text:  LMFIT, A Python tool for model fitting
 location: Simon Fraser University, Burnaby Campus, Research Commons Room 7010, Bennett Library
 link: https://github.com/ttimbers/studyGroup/issues/50
-date: 2015-11-30
+date: 2015-12-14
 startTime: 11:30
 endTime: 12:30
 
