@@ -1,0 +1,8 @@
+---
+title: Study Group Meetup
+text: introduction to Bokeh visualization library by Alex Razoumov
+location: Research Commons Room 7010, Bennett Library
+link: https://github.com/ttimbers/studyGroup/issues/55
+date: 2016-02-29
+time: 11:30 am
+---
