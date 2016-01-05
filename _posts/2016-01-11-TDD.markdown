@@ -1,5 +1,5 @@
 ---
-title: Test-driven development in Python
+title: Test-driven development in Python by Tiffany Timbers
 text: Does your code work correctly? How do you know if it does? Come learn more about testing to ensure accurate code!
 location: Simon Fraser University, Burnaby Campus, Library Research Commons
 link: https://github.com/ttimbers/studyGroup/issues/57
