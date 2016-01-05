@@ -1,6 +1,6 @@
 ---
-title: Study Group Meetup
-text: introduction to Bokeh visualization library by Alex Razoumov
+title: Visualization using Bokeh in Python by Alex Razoumov
+text: Come learn about Python's interactive visualization library.
 location: Research Commons Room 7010, Bennett Library
 link: https://github.com/ttimbers/studyGroup/issues/55
 date: 2016-02-29
