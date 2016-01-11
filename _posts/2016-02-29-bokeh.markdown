@@ -4,6 +4,6 @@ text: Come learn about Python's interactive visualization library.
 location: Research Commons Room 7010, Bennett Library
 link: https://github.com/ttimbers/studyGroup/issues/55
 date: 2016-02-29
-startTime: 11:30am
-endTime: 12:30pm
+startTime: 11:30
+endTime: 12:30
 ---
