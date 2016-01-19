@@ -3,7 +3,7 @@ title: Map and bubble plots in R by Catrina Loucks
 text: Learn about maps and bubble plots in R using the ggmap packages.
 location: Simon Fraser University, Burnaby Campus, Library Research Commons
 link: https://github.com/ttimbers/studyGroup/issues/60
-date: 2016-01-25
+date: 2016-03-07
 startTime: 11:30
 endTime: 12:30
 ---
