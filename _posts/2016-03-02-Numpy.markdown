@@ -1,0 +1,9 @@
+---
+title: Numpy working group session
+text: Small working group session on Python's Numpy library. NumPy is the fundamental package for scientific computing with Python.
+location: Simon Fraser University, Burnaby Campus, Library Research Commons, room 7305 (different than usual location)
+link: https://github.com/ttimbers/studyGroup/issues/73
+date: 2016-03-02
+startTime: 10:00
+endTime: 11:00
+---
