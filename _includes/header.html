@@ -19,10 +19,13 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Events</a>
+                        <a class="page-scroll" href="#services">{{site.data[site.language].whatWeDo}}</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#portfolio">{{site.data[site.language].events}}</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">{{site.data[site.language].contact}}</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#team">Team</a>
@@ -43,7 +46,7 @@
                 {% if site.survey_url %}
                     <a href="{{ site.survey_url }}" target="_blank" class="btn btn-xl">Join The Community</a>
                 {% else %}
-                    <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+                    <a href="#services" class="page-scroll btn btn-xl">{{site.data[site.language].tellMeMore}}</a>
                 {% endif %}
             </div>
         </div>

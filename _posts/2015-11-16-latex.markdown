@@ -2,8 +2,8 @@
 title: Introduction to LaTeX by Ross Churchley
 text: Get to know LaTeX
 location: SSB 7172, Simon Fraser University (Burnaby Campus)
-link: https://github.com/ttimbers/studyGroup/issues/47
+link: https://github.com/sciprog-sfu/sciprog-sfu.github.io/issues/47
 date: 2015-11-16
-startTime: 11:30
-endTime: 12:30
+startTime: '11:30'
+endTime: '12:30'
 ---

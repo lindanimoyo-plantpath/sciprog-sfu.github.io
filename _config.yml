@@ -1,8 +1,9 @@
 #Setup ~~~
-#Follow these 3 steps to set up your site.
+#Follow these 2 steps to set up your site.
 
 #Step 1: change mozillascience to the user name you chose on GitHub:
-user: ttimbers
+user: sciprog-sfu
+repoName: sciprog-sfu.github.io
 
 #Step 2: give your study group a name and a short description:
 title: Scientific Programming Study Group at SFU
@@ -14,8 +15,9 @@ sequence analysis, plotting and statistical analysis of environmental data in R,
 automating repetitive tasks with the shell, general best practices in coding, and to using
 tools such as Git and Github to collaborate effectively with others. All are welcome to
 this study group, regardless of affiliation or training level."
+language: en
 
-#Step 3: press the green 'Commit Changes' button at the bottom of this page.
+#Step 2: press the green 'Commit Changes' button at the bottom of this page.
 
 # That's it, your website is all set up!
 # You can see it at https://YourUserName.github.io/studyGroup/

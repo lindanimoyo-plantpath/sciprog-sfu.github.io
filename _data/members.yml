@@ -1,10 +1,10 @@
 - name: Bill Mills
-  affiliation: Mozilla Science Lab
+  affiliation: TRIUMF
   github: BillMills
   interests:
     - Programming
     - Open Science
-    
+
 - name: Tiffany Timbers
   affiliation: Simon Fraser University
   github: ttimbers
@@ -18,7 +18,7 @@
   interests:
     - Cancer Genomics
     - Open Science
-    
+
 - name: Thea Van Rossum
   affiliation: Simon Fraser University
   github: theavanrossum

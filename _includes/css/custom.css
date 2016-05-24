@@ -100,7 +100,3 @@ ul.events {
 .navbar-default .navbar-brand {
 	color: #FFFFFF;
 }
-
-.navbar-default.navbar-shrink .navbar-brand {
-	/*color: #{{ site.color.primary }};*/
-}

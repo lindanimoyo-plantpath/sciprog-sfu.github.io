@@ -2,9 +2,9 @@
 title: Using Make to increase Automation & Reproducibility by Shaun Jackman
 text: Learn to use Make to manage your the data analysis pipeline!
 location:  Simon Fraser University (Burnaby Campus) SSB 7172
-link: https://github.com/ttimbers/studyGroup/issues/6
+link: https://github.com/sciprog-sfu/sciprog-sfu.github.io/issues/6
 date: 2015-08-11
-startTime: 15:30
-endTime: 16:30
+startTime: '15:30'
+endTime: '16:30'
 
 ---
