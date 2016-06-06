@@ -2,7 +2,7 @@
 title: "The dplyr R package: analyse subsets of your dataframe"
 text: Learn to split-apply-combine with ease and style using dplyr
 location: Simon Fraser University, Burnaby Campus, Library Research Commons
-link: https://github.com/sciprog-sfu/sciprog-sfu.github.io/issues/91
+link: https://github.com/sciprog-sfu/sciprog-sfu.github.io/issues/94
 date: 2016-06-13
 startTime: '10:30'
 endTime: '11:30'
