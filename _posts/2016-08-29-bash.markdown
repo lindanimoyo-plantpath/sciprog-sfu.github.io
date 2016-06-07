@@ -1,0 +1,9 @@
+---
+title: '"Introduction to Bash" by Vanessa Guerra'
+text: "Scared of the command line? Overcome your feat and attend this introductory workshop on the Bash shell! You will learn how to navigate your file system and automate tasks to make your life easier."
+location: Simon Fraser University, Burnaby Campus, Library Research Commons
+link: https://github.com/sciprog-sfu/sciprog-sfu.github.io/issues/97
+date: 2016-08-29
+startTime: '10:30'
+endTime: '11:30'
+---

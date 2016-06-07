@@ -1,0 +1,9 @@
+---
+title: '"Introduction to Shiny for Interactive Data Visualization" by Dean Attali'
+text: "Learn how to make interactive web applications in R using the Shiny package! Note that this is a two-hour workshop."
+location: Simon Fraser University, Burnaby Campus, Library Research Commons
+link: https://github.com/sciprog-sfu/sciprog-sfu.github.io/issues/101
+date: 2016-07-18
+startTime: '10:30'
+endTime: '12:30'
+---
