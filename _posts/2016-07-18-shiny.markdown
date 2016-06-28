@@ -1,6 +1,6 @@
 ---
-title: '"Introduction to Shiny for Interactive Data Visualization" by Dean Attali'
-text: "Learn how to make interactive web applications in R using the Shiny package! Note that this is a two-hour workshop."
+title: '"Building Shiny apps for interactive data analysis" by Dean Attali'
+text: "Shiny is a package that lets you transform your R code into an interactive web page. With shiny you can share your R code or analysis with people who don't know R, or you can use it to make your analysis interactive and easy by exposing it using a graphical user interface instead of through programming. In this tutorial you'll learn what shiny is, see examples of shiny apps, learn how to create shiny apps, and get an introduction to some of the key concepts in shiny programming."
 location: Simon Fraser University, Burnaby Campus, Library Research Commons
 link: https://github.com/sciprog-sfu/sciprog-sfu.github.io/issues/101
 date: 2016-07-18

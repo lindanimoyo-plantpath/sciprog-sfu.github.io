@@ -1,0 +1,9 @@
+---
+title: '"Data analysis in Python using pandas" by Kenji Kurita'
+text: "The goal of this workshop will be to teach the basics of the Pandas Toolkit and to convince you to uninstall Microsoft Excel from your computer. In the Pandas SciProg lesson, I will focus on an overview of series and data frames, selecting, groupby, merge and concatenate, calculations with lambda functions, and basic plotting functions. "
+location: Simon Fraser University, Burnaby Campus, Library Research Commons
+link: https://github.com/sciprog-sfu/sciprog-sfu.github.io/issues/112
+date: 2016-07-25
+startTime: '10:30'
+endTime: '11:30'
+---
