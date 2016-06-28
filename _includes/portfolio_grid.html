@@ -17,7 +17,7 @@
                   {% capture nowday %}{{'now' | date: '%j'}}{% endcapture %}
                   {% capture postday %}{{post.date | date: '%j'}}{% endcapture %}
                   {% assign postday = postday | plus: 0 %}
-                  {% assign nowday = nowday | minus: 2 %}
+                  {% assign nowday = nowday | minus: 0 %}
                   {% if postyear > nowyear or postday >= nowday and postyear >= nowyear %}
                     {% assign isEvent = 1 %}
                         <li>
