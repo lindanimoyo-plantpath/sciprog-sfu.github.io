@@ -1,86 +1,150 @@
-# How to Lead a Study Group Session
+How to Lead a SciProg Workshop
+==============================
 
-We want your workshops to be the best they can be. We believe in a dynamic teaching style 
-that engages the audience. To achieve this here are a few guidelines for leading a study 
-group session. 
+Everyone is welcome to lead a SciProg workshop to share valuable skills
+with their peers. The topic is up to you! If you’re looking for ideas,
+here are a few:
 
-## 1. Design the lesson for a one-hour time slot
+-   A software tool that you use every day and think is invaluable to 
+your workflow
 
-It's hard to time a hands-on lesson because it depends on your audience and their 
-preferred pace. Your best bet is to plan to cover the basics within an hour at a slow 
-pace, but have some extra optional material at the end if things go faster than expected. 
-Importantly, if you do not get through everything, it's okay. It's better that you leave 
-stuff out than rush through the material. Your notes will (hopefully) be published, so
-people can learn in their own time afterwards. 
+-   A software tool that you want to gain confidence in by teaching it
 
-## 2. Ensure the topic is of general interest
+For the sake of simplicity, we use the term “software tool” to broadly
+refer to anything that helps with scientific programming. It can be a
+programming language, a package or module, a computer program (e.g. a
+text editor or IDE), a programming concept (*e.g.* functional
+programming), programming best practices, etc.
 
-This study group is for scientific programmers. Hence, the audience members will come from 
-diverse backgrounds. Your lesson should take this into account and not be too domain-
-specific. Of course, you can use your own data for demonstration purposes, but try to keep 
-the problems you are trying to solve with your programming tool to those of general 
-interest. 
+**Workshop Format** and Expectations
+------------------------------------
 
-## 3. Start of with the motivation for what you are teaching
+-   Workshops typically last one hour, but can be extended to two hours.
 
-What problem can the tool you are teaching solve? Why is that tool ideal for solving that 
-problem? Spending 2-5 minutes on the motivation for learning the tool and setting up the 
-problem is essential to engage your learners.
+-   Hands-on coding demos are better than slides for teaching software 
+    tools.
 
-## 4. No lecture slides, just live demos
+-   Whenever possible, format your lesson notes so you can share them 
+    after the workshop for future reference.
 
-It's much more engaging if you demonstrate the code you're presenting as opposed to just 
-lecturing. It ensures that your audience can follow you as you go along. Also, please send 
-the organizers the data files your audience will need to follow along with you ahead of 
-the session you are leading.
+-   Structure your lesson to include a few challenge questions (i.e. 
+    define a task that the students need to complete using what you 
+    just taught them).
 
-## 5. Include some challenge questions
+    -   Challenge questions serve to give a chance to learners to apply 
+        what they’ve just learned.
 
-One easy way to test if your audience is understanding what you're demonstrating is to 
-provide them with challenge questions. It allows you to make sure everyone is on the same 
-page and help out those who are having trouble. And who doesn't enjoy the rush of dopamine 
-when you get something to work?
+    -   This gives you a chance to help anyone who’s struggling.
 
-## 6. Use the Sticky Note Method™
+    -   Challenge questions shouldn’t last longer than 3-5 minutes.
 
-We're not gonna lie about this: this idea is straight-up taken from Software Carpentry's 
-book, because it works! The organizers will be providing each audience member with two 
-differently coloured sticky notes. One will signify "I'm good!", while the other will 
-signal "Help!" During challenge questions, this will allow those who raised the "I'm good" 
-flag to help each other out. Collaboration is key!
+Before the Workshop 
+--------------------
 
-## 7. Share the love! (And the notes)
+1.  [*Create a GitHub issue*](https://github.com/sciprog-sfu/
+    sciprog-sfu.github.io/issues/new) using to let us know you’re 
+    interested in leading a workshop. Feel free to use [*this template*](
+    https://github.com/sciprog-sfu/sciprog-sfu.github.io/issues/120) (click 
+    on the pencil icon in the top right to copy the text). Include the 
+    following text in the issue.:
 
-As we've said, we're all about collaboration. This includes sharing your lesson notes. 
-Not only does this permit study group members to refer back to the lesson, but it also 
-allows others (here or elsewhere) to give the lesson themselves. 
+    -   The topic of your workshop in the form of a **title**
 
-# How to Screencast a Study Group Session
+    -   A **short and specific description** of what you plan on covering
 
-## Setup (for organizers)
+    -   Any **prerequisite knowledge**
 
-1. Log in to Google with the study group account. 
-2. Visit the Hangouts On Air page for the study group Google+ page. 
-  1. Visit the study group's Google+ page.
-  2. In the drop-down menu at the top-left of the page, click on Hangouts.
-  3. At the top, click on the Hangouts on Air tab in the centre. 
-5. Click the "Create a Hangout On Air" button. 
-6. Name the Hangout using the following format: YYYY-MM-DD Topic Name, by Presenter Name
-  * An example would be: 2015-07-21 Introduction to Regular Expressions, by Bruno Grande
-7. If the presentation is imminent, select "Starts Now". Otherwise, select "Later" and indicate the date and time. 
-8. When the time comes, follow the broadcast instructions below. 
+        -   You can’t cover much in 1-2 hours, so it’s better that you 
+            expect some prerequisite knowledge.
 
-## Broadcast (for presenters)
+        -   For example, if you’re going to teach about an R package, it’s 
+            recommended that you assume familiarity with the R language.
 
-1. Ensure that you meet the [minimum requirements](https://support.google.com/hangouts/answer/1216376) for Google Hangouts. 
-2. If so, install the [Google Hangouts plugin](https://tools.google.com/dlpage/hangoutplugin) if you don't already have it. 
-3. Log in to Google with the study group account. Ask an organizer for this.
-4. Visit the event page for the Hangout on Air. 
-  1. Visit the study group's Google+ page.
-  2. In the drop-down menu at the top-left of the page, click on Events.
-  3. Click on the relevant Hangouts On Air event. 
-5. Click on the Start button. 
-6. Skip the "Invite guests" step. 
-7. Switch the video to your screen by enabling the Screenshare app (look for green icon on the left-hand side).
-  * If you will be switching between windows during the lesson, it would be best that you screenshare the entire screen.
-8. Wait until the loading is ready (at the bottom) and then click "Start Broadcast". 
+    -   Any **software dependencies**
+
+        -   It’s sometimes difficult to install a software tool on different 
+            operating systems (*i.e.* Windows, OS X and Linux).
+
+        -   Whenever possible, link to existing installation instructions for 
+            different operating systems.
+
+    -   Any **example datasets** that you will use in your workshop so learners can download them
+
+    -   **Upload an image** you are interested in using for promoting your 
+        workshop on [*Facebook *](https://www.facebook.com/groups/sciprog/)
+        (if any). You can also specify a template from the [*image-templates 
+        folder*](https://github.com/sciprog-sfu/sciprog-sfu.github.io/tree/
+        master/image-templates) on GitHub. Note: The final decision is left 
+        to the discretion of the organizers.
+
+2.  Prepare your lesson notes according to the workshop format and 
+    expectations described above. For example, if you will be teaching about 
+    an R package, have a document with all the commands you will run and 
+    comments explaining each set of commands.
+
+3.  Go through your notes from scratch at least once before the actual 
+    workshop to avoid unexpected issues during the workshop.
+
+    -   Pro-tip: start a new Python/R/whatever session before going through 
+        your notes to make sure it’ll work the same way on the day of your
+        workshop.
+
+4.  Bring sticky notes (or ask the SciProg organizers to bring some).
+
+    -   This idea is taken from Software Carpentry workshops ([*source*]
+        (http://software-carpentry.org/workshops/operations/)). They usually 
+        use two colours, but we can get by with only one colour.
+
+    -   During the lesson, learners will put up a sticky note on their laptop 
+        if they need help. The workshop leader or someone else can then help 
+        them.
+
+    -   When you start a challenge question, learners put up their sticky 
+        note. They take it down once they complete the challenge. This 
+        helps gauge how many people still need time for the challenge.
+
+**During the Workshop** 
+------------------------
+
+1.  Arrive 10 minutes in advance at the Library Research Commons, room 7010.
+
+    -   The Research Commons is normally reserved for graduate students. You 
+        need a code to enter the room. If you’re a graduate student, you can 
+        obtain the code [*here*](http://www.lib.sfu.ca/about/branches-depts/
+        rc/services/door-code). If you aren’t, let the organizers know.
+
+    -   Arrive early to prop open the front door to the Research Commons for 
+        non–graduate students and to set up your computer.
+
+2.  Introduce yourself: mention your name, your position and department and 
+    a short 1-2 sentence description of what you work on.
+
+3.  Describe the motivation to learn the software tool you’re going to teach. 
+    Don’t assume people know this. Sometimes, people show up just because 
+    they’ve heard that they should know about the tool, but don’t know 
+    exactly why.
+
+    -   How do you use the software tool in your own work?
+
+    -   What can you do with the software tool?
+
+    -   Which tasks are easier thanks to the software tool?
+
+4.  Describe the sticky note system you will use during the workshop.
+
+5.  Workshop time. Good luck!
+
+6.  At the end, invite the learners to provide positive and constructive 
+    feedback so you can grow as an instructor.
+
+    -   If you use sticky notes, you can ask them to write the feedback on 
+        the sticky notes.
+
+**After the Workshop** 
+-----------------------
+
+1.  Post a link to the lessons notes (if any) on the workshop’s GitHub issue. 
+    If you don’t have somewhere to host your notes, send them to us and we 
+    will put them on SciProg’s GitHub under the “lessons” directory.
+
+
