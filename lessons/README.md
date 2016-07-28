@@ -41,11 +41,11 @@ Workshop Format and Expectations
 Before the Workshop 
 -------------------
 
-1.  [Create a GitHub issue](https://github.com/sciprog-sfu/
-    sciprog-sfu.github.io/issues/new) to let us know you’re 
-    interested in leading a workshop. Our [workshop issue template]
-    (https://raw.githubusercontent.com/sciprog-sfu/sciprog-sfu.github.io/
-    master/lessons/workshop_issue_template.md) describes everything we
+1.  [Create a GitHub issue](https://github.com/sciprog-sfu/sciprog-sfu.github.io/issues/new) 
+    to let us know you’re interested in leading a workshop. Our [workshop 
+    issue template]
+    (https://raw.githubusercontent.com/sciprog-sfu/sciprog-sfu.github.io/master/lessons/workshop_issue_template.md) 
+    describes everything we
     need from you. 
 
 2.  Prepare your lesson notes according to the **Workshop Format and 
@@ -81,8 +81,8 @@ During the Workshop
 
     -   The Research Commons is normally reserved for graduate students. You 
         need a code to enter the room. If you’re a graduate student, you can 
-        obtain the code [*here*](http://www.lib.sfu.ca/about/branches-depts/
-        rc/services/door-code). If you aren’t, let the organizers know.
+        obtain the code [*here*](http://www.lib.sfu.ca/about/branches-depts/rc/services/door-code). 
+        If you aren’t, let the organizers know.
 
     -   Arrive early to prop open the front door to the Research Commons for 
         non–graduate students and to set up your computer.
