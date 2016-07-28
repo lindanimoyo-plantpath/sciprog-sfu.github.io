@@ -6,9 +6,9 @@ with their peers. The topic is up to you! If you’re looking for ideas,
 here are a few:
 
 -   A software tool that you use every day and think is invaluable to 
-your workflow
+    your workflow.
 
--   A software tool that you want to gain confidence in by teaching it
+-   A software tool that you want to gain confidence in by teaching it.
 
 For the sake of simplicity, we use the term “software tool” to broadly
 refer to anything that helps with scientific programming. It can be a
@@ -16,8 +16,8 @@ programming language, a package or module, a computer program (e.g. a
 text editor or IDE), a programming concept (*e.g.* functional
 programming), programming best practices, etc.
 
-**Workshop Format** and Expectations
-------------------------------------
+Workshop Format and Expectations
+--------------------------------
 
 -   Workshops typically last one hour, but can be extended to two hours.
 
@@ -27,58 +27,29 @@ programming), programming best practices, etc.
 -   Whenever possible, format your lesson notes so you can share them 
     after the workshop for future reference.
 
--   Structure your lesson to include a few challenge questions (i.e. 
-    define a task that the students need to complete using what you 
-    just taught them).
+-   Structure your lesson to include a few challenge questions covering
+    what you're teaching.
 
-    -   Challenge questions serve to give a chance to learners to apply 
-        what they’ve just learned.
+    -   Challenge questions provide opportunities for learners to apply
+        their newly acquired skills.
 
-    -   This gives you a chance to help anyone who’s struggling.
+    -   This gives you a chance to help anyone who’s struggling, because
+        you will have a break from teaching the lesson. 
 
     -   Challenge questions shouldn’t last longer than 3-5 minutes.
 
 Before the Workshop 
---------------------
+-------------------
 
-1.  [*Create a GitHub issue*](https://github.com/sciprog-sfu/
-    sciprog-sfu.github.io/issues/new) using to let us know you’re 
-    interested in leading a workshop. Feel free to use [*this template*](
-    https://github.com/sciprog-sfu/sciprog-sfu.github.io/issues/120) (click 
-    on the pencil icon in the top right to copy the text). Include the 
-    following text in the issue.:
+1.  [Create a GitHub issue](https://github.com/sciprog-sfu/
+    sciprog-sfu.github.io/issues/new) to let us know you’re 
+    interested in leading a workshop. Our [workshop issue template]
+    (https://raw.githubusercontent.com/sciprog-sfu/sciprog-sfu.github.io/
+    master/lessons/workshop_issue_template.md) describes everything we
+    need from you. 
 
-    -   The topic of your workshop in the form of a **title**
-
-    -   A **short and specific description** of what you plan on covering
-
-    -   Any **prerequisite knowledge**
-
-        -   You can’t cover much in 1-2 hours, so it’s better that you 
-            expect some prerequisite knowledge.
-
-        -   For example, if you’re going to teach about an R package, it’s 
-            recommended that you assume familiarity with the R language.
-
-    -   Any **software dependencies**
-
-        -   It’s sometimes difficult to install a software tool on different 
-            operating systems (*i.e.* Windows, OS X and Linux).
-
-        -   Whenever possible, link to existing installation instructions for 
-            different operating systems.
-
-    -   Any **example datasets** that you will use in your workshop so learners can download them
-
-    -   **Upload an image** you are interested in using for promoting your 
-        workshop on [*Facebook *](https://www.facebook.com/groups/sciprog/)
-        (if any). You can also specify a template from the [*image-templates 
-        folder*](https://github.com/sciprog-sfu/sciprog-sfu.github.io/tree/
-        master/image-templates) on GitHub. Note: The final decision is left 
-        to the discretion of the organizers.
-
-2.  Prepare your lesson notes according to the workshop format and 
-    expectations described above. For example, if you will be teaching about 
+2.  Prepare your lesson notes according to the **Workshop Format and 
+    Expectations** section above. For example, if you will be teaching about 
     an R package, have a document with all the commands you will run and 
     comments explaining each set of commands.
 
@@ -103,8 +74,8 @@ Before the Workshop
         note. They take it down once they complete the challenge. This 
         helps gauge how many people still need time for the challenge.
 
-**During the Workshop** 
-------------------------
+During the Workshop 
+-------------------
 
 1.  Arrive 10 minutes in advance at the Library Research Commons, room 7010.
 
@@ -140,8 +111,8 @@ Before the Workshop
     -   If you use sticky notes, you can ask them to write the feedback on 
         the sticky notes.
 
-**After the Workshop** 
------------------------
+After the Workshop
+------------------
 
 1.  Post a link to the lessons notes (if any) on the workshop’s GitHub issue. 
     If you don’t have somewhere to host your notes, send them to us and we 
