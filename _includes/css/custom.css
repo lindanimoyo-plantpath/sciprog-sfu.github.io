@@ -100,3 +100,13 @@ ul.events {
 .navbar-default .navbar-brand {
 	color: #FFFFFF;
 }
+
+
+/* Improve header */
+
+.nav>li .fb-icon {
+	width: 50px;
+    position: relative;
+    display: block;
+    top: -15px;
+}
