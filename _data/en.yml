@@ -4,13 +4,13 @@ events: Events
 contact: Contact
 tellMeMore: Tell Me More
 
-activitiesSubheading: "We are scientific programming study group whose home-base is at Simon Fraser University (SFU) in Burnaby, BC, Canada. Our group meets on a weekly basis for peer-facilitated study-sessions on topics under the broad umbrella of using computers to do scientific research more effectively and efficiently. This includes using Python for DNA sequence analysis, plotting and statistical analysis of environmental data in R, automating repetitive tasks with the shell, general best practices in coding, using tools such as Git and Github to collaborate effectively with others, and much much more."
+activitiesSubheading: "SciProg—short for Scientific Programming Study Group—is dedicated to building a community of SFU researchers who perform computational data analysis as part of their academic work. SciProg promotes skill sharing and collaboration by (1) organizing one-hour interactive workshops covering a wide range of software tools, (2) providing Q&A sessions for peer-to-peer assistance and collaboration, and (3) bringing researchers together at social events like Hacky Hours."
 activitiesSubheading2: "All are welcome to this study group, regardless of scientific research area, affiliation or training level."
 activities:
-  - title: Skill Sharing
+  - title: Skill-Sharing Workshops
     description: 'Share your favorite coding skills and tools with your friends and colleagues in friendly, no-pressure work-alongs.</p>'
     icon: fa-comment
-  - title: Co-Working
+  - title: Q&A Sessions
     description: 'Get together to work on your coding projects, help each other out and share your work.'
     icon: fa-laptop
   - title: Community Building
