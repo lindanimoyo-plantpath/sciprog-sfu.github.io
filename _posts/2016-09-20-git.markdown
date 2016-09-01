@@ -1,0 +1,9 @@
+---
+title: '"Getting Started with Git" by Bruno Grande'
+text: "Have you been wanting to learn Git but never got around to it? Or perhaps it seems much scarier than plain old Dropbox? In this workshop, I'll introduce the basic concepts of Git using the real-world scenario of creating a blog and publishing it online for free! I've taught this workshop before and I've gotten the feedback that it makes learning Git a lot easier. If you've tried to learn Git before but struggled, I recommend giving it another try with this workshop. I'll do my best to teach it in an accessible way."
+location: Simon Fraser University, Burnaby Campus, Library Research Commons
+link: https://github.com/sciprog-sfu/sciprog-sfu.github.io/issues/129
+date: 2016-09-20
+startTime: '15:00'
+endTime: '16:00'
+---
