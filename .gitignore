@@ -4,3 +4,4 @@ _site/
 .DS_Store
 lessons/.DS_Store
 client_secret.json
+*~
