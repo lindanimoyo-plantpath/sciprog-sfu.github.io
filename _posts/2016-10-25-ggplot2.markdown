@@ -1,0 +1,15 @@
+---
+title: '"Supercharge your plotting in R using ggplot2" by Bruno Grande'
+text: "There are several approaches to plotting available in R: base graphics, lattice and ggplot2, just to name
+a few. In recent years, ggplot2 has truly taken off to become one of the most popular visualization
+packages in R. It leverages the grammar of graphics to deliver an intuitive framework to build plots and
+other graphics. This workshop will cover the basics of plotting in R using ggplot2 We will learn how to
+build scatterplots, strip plots, barplots, histograms and other density plots. We will also touch upon
+various customizations for polishing your plots and preparing them to be published. I will assume that
+attendees are familiar with R. Please read the installation instructions ahead of the workshop."
+location: Simon Fraser University, Burnaby Campus, Library Research Commons
+link: https://github.com/sciprog-sfu/sciprog-sfu.github.io/issues/143
+date: 2016-10-25
+startTime: '15:00'
+endTime: '16:00'
+---
