@@ -1,5 +1,5 @@
 ---
-title: '"On R programming" by Thea Van Rossum'
+title: 'Become a master manipulator... of data with dplyr! with Thea Van Rossum'
 text: 
 location: Simon Fraser University, Burnaby Campus, Library Research Commons
 link: https://github.com/sciprog-sfu/sciprog-sfu.github.io/issues/146
