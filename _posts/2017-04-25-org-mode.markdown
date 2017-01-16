@@ -1,0 +1,9 @@
+---
+title: '"Forget about RMarkdown: welcome to org mode!" by Marie-Hélène Burle'
+text: "Org mode is an extremely powerful emacs package. It is a great tool for organizing ideas and drafting plans, writing text for export to latex, pdf, html and many other formats, writing text with embedded code for literate programming (much more powerful that RMarkdown), writing papers or your thesis, making beamer presentations."
+location: Simon Fraser University, Burnaby Campus, Library Research Commons
+link: https://github.com/sciprog-sfu/sciprog-sfu.github.io/issues/155
+date: 2017-04-25
+startTime: '15:00'
+endTime: '16:00'
+---
