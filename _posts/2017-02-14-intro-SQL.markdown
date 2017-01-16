@@ -1,9 +1,9 @@
 ---
-title: 'Machine learning topic by Apala Guha'
+title: 'Introduction to SQL'
 text: "To be updated."
 location: Simon Fraser University, Burnaby Campus, Library Research Commons
 link: 
-date: 2017-01-31
+date: 2017-02-14
 startTime: '15:00'
 endTime: '16:00'
 ---
