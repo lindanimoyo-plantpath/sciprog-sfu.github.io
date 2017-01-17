@@ -1,9 +1,0 @@
----
-title: 'Machine learning topic by Apala Guha'
-text: "To be updated."
-location: Simon Fraser University, Burnaby Campus, Library Research Commons
-link: 
-date: 2017-01-31
-startTime: '15:00'
-endTime: '16:00'
----
