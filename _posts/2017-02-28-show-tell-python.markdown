@@ -1,5 +1,5 @@
 ---
-title: 'Machine learning topic'
+title: 'Show & Tell on Python'
 text: "To be updated."
 location: Simon Fraser University, Burnaby Campus, Library Research Commons
 link: 
