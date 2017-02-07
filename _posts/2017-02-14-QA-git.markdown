@@ -1,6 +1,6 @@
 ---
 title: 'Q&A Session on Git'
-text: "To be updated."
+text: "Whether you're a beginner or an expert on Git, you're invited to this Q&A session to collaborate on solving problems. Have you wanted to use Git for one of your projects for the longest time but didn't know where to start? Have you run into one of those crazy Git error messages and don't know what to do? Come out to this Q&A session to provide or seek answers!"
 location: Simon Fraser University, Burnaby Campus, Library Research Commons
 link: 
 date: 2017-02-14
