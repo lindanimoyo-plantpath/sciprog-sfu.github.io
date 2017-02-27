@@ -4,6 +4,6 @@ text: "This is an informal Q&A session on anything related to Python. It will in
 location: Simon Fraser University, Burnaby Campus, Library Research Commons
 link: 
 date: 2017-02-28
-startTime: '15:00'
-endTime: '16:00'
+startTime: '16:00'
+endTime: '17:00'
 ---
