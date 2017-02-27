@@ -1,0 +1,9 @@
+---
+title: 'Q&A Session on R'
+text: "Have you started using R but already run into annoying issues that you can't get around? Or are you a seasoned R user and want to do something crazy but don't know how to tackle the problem? Q&A sessions are meant to catalyze collaboration by pooling the knowledge available within the SciProg group. Come out to this Q&A session to provide or seek answers!"
+location: Simon Fraser University, Burnaby Campus, Library Research Commons
+link: 
+date: 2017-03-14
+startTime: '15:00'
+endTime: '16:00'
+---
