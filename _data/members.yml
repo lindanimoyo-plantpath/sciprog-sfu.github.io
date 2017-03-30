@@ -67,3 +67,12 @@
   interests:
     - Sports Statistics
     - Open Science
+
+- name: Alex Razoumov
+  affiliation: WestGrid
+  github: razoumov
+  interests:
+    - Computational Astrophysics
+    - Computational Fluid Dynamics
+    - HPC
+    - Visualization
