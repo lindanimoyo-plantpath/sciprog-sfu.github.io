@@ -45,13 +45,13 @@
                       <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne" class='btn btn-xl'>
                         {{site.data[site.language].pastEvents}}
                       </a>
-                    
+
                   </div>
                   <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
                     <div class="panel-body">
                       <ul class='events'>
                         {% assign isEvent = 0 %}
-                        {% for post in site.posts reversed %}
+                        {% for post in site.posts %}
                           {% capture nowyear %}{{'now' | date: '%Y'}}{% endcapture %}
                           {% capture postyear %}{{post.date | date: '%Y'}}{% endcapture %}
                           {% capture nowday %}{{'now' | date: '%j'}}{% endcapture %}
