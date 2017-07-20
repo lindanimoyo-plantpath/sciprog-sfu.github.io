@@ -1,0 +1,9 @@
+---
+title: '"Introduction to Bash: Learn to use the command line"'
+text: "Scared of the command line? Overcome your feat and attend this introductory workshop on the Bash shell! You will learn how to navigate your file system and automate tasks to make your life easier."
+location: Simon Fraser University, Burnaby Campus, Library Research Commons
+link: https://github.com/sciprog-sfu/sciprog-sfu.github.io/issues/171
+date: 2017-11-21
+startTime: '15:00'
+endTime: '16:00'
+---
