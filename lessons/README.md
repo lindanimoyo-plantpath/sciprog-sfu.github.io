@@ -19,7 +19,8 @@ programming), programming best practices, etc.
 Workshop Format and Expectations
 --------------------------------
 
--   Workshops typically last one hour, but can be extended to two hours.
+-   Workshops typically last 60 minutes, but can be extended to 90 
+    minutes.
 
 -   Hands-on coding demos are better than slides for teaching software 
     tools.
