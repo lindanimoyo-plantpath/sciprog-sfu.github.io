@@ -1,0 +1,9 @@
+---
+title: '"Introduction to Git/GitHub" by Jessica Walsh'
+text: ""
+location: Simon Fraser University, Burnaby Campus, Library Research Commons
+link: https://github.com/sciprog-sfu/sciprog-sfu.github.io/issues/173
+date: 2017-12-05
+startTime: '15:00'
+endTime: '16:00'
+---

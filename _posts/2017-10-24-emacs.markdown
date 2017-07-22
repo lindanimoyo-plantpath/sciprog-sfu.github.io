@@ -1,0 +1,9 @@
+---
+title: '"Emacs" by Marie-Hélène Burle'
+text: ""
+location: Simon Fraser University, Burnaby Campus, Library Research Commons
+link: https://github.com/sciprog-sfu/sciprog-sfu.github.io/issues/174
+date: 2017-10-24
+startTime: '15:00'
+endTime: '16:00'
+---
