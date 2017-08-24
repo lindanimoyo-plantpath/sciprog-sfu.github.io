@@ -44,8 +44,7 @@ Before the Workshop
 
 1.  [Create a GitHub issue](https://github.com/sciprog-sfu/sciprog-sfu.github.io/issues/new) 
     to let us know you’re interested in leading a workshop. Our [workshop 
-    issue template]
-    (https://raw.githubusercontent.com/sciprog-sfu/sciprog-sfu.github.io/master/lessons/workshop_issue_template.md) 
+    issue template](https://raw.githubusercontent.com/sciprog-sfu/sciprog-sfu.github.io/master/lessons/workshop_issue_template.md) 
     describes everything we
     need from you. 
 
