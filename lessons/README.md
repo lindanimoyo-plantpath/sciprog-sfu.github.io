@@ -63,8 +63,7 @@ Before the Workshop
 
 4.  Bring sticky notes (or ask the SciProg organizers to bring some).
 
-    -   This idea is taken from Software Carpentry workshops ([*source*]
-        (http://software-carpentry.org/workshops/operations/)). They usually 
+    -   This idea is taken from Software Carpentry workshops ([*source*](http://software-carpentry.org/workshops/operations/)). They usually 
         use two colours, but we can get by with only one colour.
 
     -   During the lesson, learners will put up a sticky note on their laptop 
