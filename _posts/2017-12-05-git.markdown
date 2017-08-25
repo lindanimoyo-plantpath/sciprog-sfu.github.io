@@ -1,7 +1,7 @@
 ---
-title: '"Introduction to Git/GitHub" by Jessica Walsh'
-text: ""
-location: Simon Fraser University, Burnaby Campus, Library Research Commons
+title: '"Version control and collaborating with Git and Github: To save your future self from stress!" by Jessica Walsh'
+text: "Learn the benefits of using Git to track your changes, improve workflow and share code in collaborative projects. This will be designed for beginners, as we will go over the basics of Git and Github. Basic knowledge of Bash and R Studio will be helpful."
+location: Simon Fraser University, Burnaby Campus, Library Research Commons, Room 3008 (note different location!)
 link: https://github.com/sciprog-sfu/sciprog-sfu.github.io/issues/173
 date: 2017-12-05
 startTime: '15:00'

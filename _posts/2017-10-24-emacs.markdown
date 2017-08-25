@@ -1,6 +1,6 @@
 ---
 title: '"Emacs" by Marie-Hélène Burle'
-text: "For more information about this workshop, including pre-requisites, please see https://github.com/prosoitos/workshop_getting-started-with-emacs."
+text: "Come to this introductory level workshop to discover what emacs is and what it can do. Even if you do not plan on learning emacs, being exposed to its world could be inspiring and make you reconsider your workflow and work tools. If you intend on playing with emacs during the workshop, come with a version installed on your machine (see below)."
 location: Simon Fraser University, Burnaby Campus, Library Research Commons
 link: https://github.com/sciprog-sfu/sciprog-sfu.github.io/issues/174
 date: 2017-10-24
