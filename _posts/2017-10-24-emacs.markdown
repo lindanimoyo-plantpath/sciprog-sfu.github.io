@@ -1,6 +1,6 @@
 ---
 title: '"Emacs" by Marie-Hélène Burle'
-text: "Come to this introductory level workshop to discover what emacs is and what it can do. Even if you do not plan on learning emacs, being exposed to its world could be inspiring and make you reconsider your workflow and work tools. If you intend on playing with emacs during the workshop, come with a version installed on your machine (see below)."
+text: "Emacs is a powerful, extensible and highly customizable text editor. It can do anything that can be done with plain text: write and run code, literate programming, version control, writing your papers and thesis, organizing your agenda and notes, emails, etc. The idea behind this workshop is to get you started on your emacs journey so that you can more easy look for information and build up the knowledge yourself."
 location: Simon Fraser University, Burnaby Campus, Library Research Commons
 link: https://github.com/sciprog-sfu/sciprog-sfu.github.io/issues/174
 date: 2017-10-24
