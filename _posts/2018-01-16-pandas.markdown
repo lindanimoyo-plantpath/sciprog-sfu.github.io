@@ -1,0 +1,9 @@
+---
+title: '"Pandas, a tool for high-performance data analysis in Python" by Emre Erhan'
+text: "Built-in data structures in Python are insufficient for data analysis. This workshop introduces Pandas, a Python library that facilitates efficient and simple data analysis with easy-to-use data structures. I will assume you're at least at a beginner level in Python. Please come with Anaconda for Python 3.6 installed (https://www.anaconda.com/download/)."
+location: Simon Fraser University, Burnaby Campus, Library Research Commons, Room 3010
+link: https://github.com/sciprog-sfu/sciprog-sfu.github.io/issues/177
+date: 2018-01-16
+startTime: '15:00'
+endTime: '16:00'
+---

@@ -1,0 +1,9 @@
+---
+title: '"Getting started with emacs" by Marie-Hélène Burle'
+text: "Come to this introductory level workshop to discover what emacs is and what it can do. Even if you do not plan on learning emacs, being exposed to its world could be inspiring and make you reconsider your workflow and work tools. If you intend on playing with emacs during the workshop, come with a version installed on your machine (see below)."
+location: Simon Fraser University, Burnaby Campus, Library Research Commons, Room 3008 (note different location!)
+link: https://github.com/sciprog-sfu/sciprog-sfu.github.io/issues/173
+date: 2017-12-05
+startTime: '15:00'
+endTime: '16:00'
+---
