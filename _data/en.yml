@@ -1,6 +1,6 @@
 ---
 whatWeDo: What We Do
-events: Events
+events: Workshops
 contact: Contact
 tellMeMore: Tell Me More
 
@@ -17,8 +17,8 @@ activities:
     description: 'Meet new people in your field, organization or community - and find out what we can do when we work together.'
     icon: fa-group
 
-events: Events
-eventsSubheading: Our upcoming and recent events
+events: Workshops
+eventsSubheading: Our upcoming and past workshops
 eventPlaceholder: Nothing yet! Propose an event here.
 suggestEvent: Suggest an Event
 seeEvents: See all Events

@@ -29,7 +29,7 @@ language: en
 # None of these things need to be changed - but feel free!
 
 titleBackground: "https://s3-us-west-2.amazonaws.com/webmaker-kits/learning%402x.jpg"
-headlineSmall: "Join us Tuesdays at 3:00 pm in the SFU Research Commons"
+headlineSmall: "Check out our scheduled SciProg workshops below!"
 headlineMain: "Let's Work Together"
 
 # Setup Google Calendar
