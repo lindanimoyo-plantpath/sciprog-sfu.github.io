@@ -4,7 +4,7 @@ text: >
     Emacs is a powerful extensible and highly customizable text editor. 
     While you do not need any prior knowledge of emacs, this workshop 
     will be most useful if you have some level of familiarity with some 
-    of these languages or system\: R, RMarkdown and git. Not only will it 
+    of these languages or system: R, RMarkdown and git. Not only will it 
     help understanding what we are doing, it will also give you an opportunity 
     to see how one can do some of the tasks you are familiar with differently. 
     Even if you end up not embracing emacs, it could broaden your perspective 
