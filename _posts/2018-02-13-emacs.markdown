@@ -1,9 +1,19 @@
 ---
 title: '"Getting started with emacs" by Marie-Hélène Burle'
-text: "Come to this introductory level workshop to discover what emacs is and what it can do. Even if you do not plan on learning emacs, being exposed to its world could be inspiring and make you reconsider your workflow and work tools. If you intend on playing with emacs during the workshop, come with a version installed on your machine (see below)."
-location: Simon Fraser University, Burnaby Campus, Library Research Commons, Room 3008 (note different location!)
-link: https://github.com/sciprog-sfu/sciprog-sfu.github.io/issues/173
-date: 2017-12-05
+text: >
+    Emacs is a powerful extensible and highly customizable text editor. 
+    While you do not need any prior knowledge of emacs, this workshop 
+    will be most useful if you have some level of familiarity with some 
+    of these languages or system\: R, RMarkdown and git. Not only will it 
+    help understanding what we are doing, it will also give you an opportunity 
+    to see how one can do some of the tasks you are familiar with differently. 
+    Even if you end up not embracing emacs, it could broaden your perspective 
+    on some of the tasks and tools of your workflow. That said, anybody curious 
+    about emacs is welcome! You can always learn something new, even if you 
+    don't follow everything on your machine.
+location: "Room 7010, Library Research Commons, SFU Burnaby Campus"
+link: https://github.com/sciprog-sfu/sciprog-sfu.github.io/issues/174
+date: 2018-02-13
 startTime: '15:00'
 endTime: '16:00'
 ---
