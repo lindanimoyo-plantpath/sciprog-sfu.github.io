@@ -1,0 +1,11 @@
+---
+title: '"Scientific visualization with Plotly" by Alex Razoumov'
+text: >
+      In this one-hour workshop we will take a look at using Plot.ly open-source Python library for scientific visualization. We will start with simple 2D plots, create some interactive geographical maps, and then will move to more advanced 3D plotting and animations in a web browser.
+      Check out the workshop page (click the title) for requirements to participate in the workshop and to register. 
+location: "Room 7010, Library Research Commons, SFU Burnaby Campus"
+link: https://github.com/sciprog-sfu/sciprog-sfu.github.io/issues/183
+date: 2018-04-10
+startTime: '15:30'
+endTime: '16:30'
+---
