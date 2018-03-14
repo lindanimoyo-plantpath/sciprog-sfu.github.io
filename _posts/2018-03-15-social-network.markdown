@@ -10,7 +10,7 @@ text: >
     Basic knowledge of R programming, but no knowledge of social 
     network analysis required.
 location: "Room 7010, Library Research Commons, SFU Burnaby Campus"
-link: https://github.com/sciprog-sfu/sciprog-sfu.github.io/issues/180
+link: https://github.com/sciprog-sfu/sciprog-sfu.github.io/issues/181
 date: 2018-03-15
 startTime: '15:30'
 endTime: '16:30'
