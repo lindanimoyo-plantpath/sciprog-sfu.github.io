@@ -1,4 +1,4 @@
-# ntroduction to Database and SQL
+# Introduction to Database and SQL
 
  - **Author**: Fatemeh Salehian Kia
 
