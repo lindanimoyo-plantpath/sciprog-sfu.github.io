@@ -1,5 +1,5 @@
 ---
-title: '"Introduction to Deep Learning Using Tensorflow and Keras" by Laura Gutierrez Funderburk'
+title: '"Introduction to Deep Learning Using Tensorflow and Keras" by Nafiseh Sedaghat'
 text: Coming soon.
 location: "Room 7010, Library Research Commons, SFU Burnaby Campus"
 link: https://github.com/sciprog-sfu/sciprog-sfu.github.io/issues/218
