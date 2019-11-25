@@ -6,3 +6,4 @@ lessons/.DS_Store
 client_secret.json
 *~
 yyyy-mm-dd-short-title.md
+.jekyll-cache
