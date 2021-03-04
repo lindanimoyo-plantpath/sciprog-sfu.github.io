@@ -1,5 +1,5 @@
 ---
-title: '"100 Days of Python", a mentored sprint on PursuedPyBear with Piper Thunstrom'
+title: '"100 Days of Python", a mentored sprint on PursuedPyBear with Piper Thunstrom &  Jamie Bliss'
 text: During 2021 SciProg will be collaborating with local R and Python meet ups to bring talks, coding events and mentored sprints to the community. If you are new to mentored sprints, here is a video from its founder Tania Allard, PhD https://developerrelations.com/dev-rel/mentored-sprints-for-diverse-beginners.
 location: online
 link: https://www.meetup.com/PyLadies-Vancouver/events/276577647/?isFirstPublish=true
