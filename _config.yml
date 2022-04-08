@@ -2,12 +2,12 @@
 #Follow these 2 steps to set up your site.
 
 #Step 1: change mozillascience to the user name you chose on GitHub:
-user: sciprog-sfu
+user: lindanimoyo-plantpath
 repoName: sciprog-sfu.github.io
 
 #Step 2: give your study group a name and a short description:
-title: Scientific Programming Study Group at SFU
-description: "A scientific computing study group whose home base is at Simon Fraser
+title: Scientific Programming Study Group at lindanimoyo-plantpath
+description: "A scientific computing study group whose home base is at lindanimoyo-plantpath
 University (SFU) in Burnaby, BC, Canada. Our group meets on a weekly basis for peer-
 facilitated study-sessions on topics under the broad umbrella of using computers to do
 scientific research more effectively and efficiently. This includes using Python for DNA
